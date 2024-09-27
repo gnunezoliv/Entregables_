@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Albert Sans", sans-serif;
+}
+a:link {
+    color: rgb(95, 50, 184);
+    font-size: 35px;
+}
+
+#h2{
+    color: rgb(235, 48, 141);
+    font-size: 20px;
+    padding: 10px;
+}
+

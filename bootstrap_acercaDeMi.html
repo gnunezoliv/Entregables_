@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="hedgehog.png" type="image/x-icon">
+  <title> ☆₊˚✩ Acerca de Mi★ ₊˚✩☆</title>
+  <link rel="stylesheet" href="bootstrap_acercaDeMi.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <header> <!--Encabezado-->
+
+    <nav class="navbar bg-body-tertiary"> <!-- Barra de Navegacion-->
+      <div class="container-fluid">
+        <a id="bienvenida" class="navbar-brand">Bienvenid@ a mi primera página web con Bootstrap </a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+
+  </header>
+
+
+  <main> <!-- Parte principal del cuerpo de la página: Biografía, Foto y Pasatiempos-->
+
+
+    <section class="container-fluid text-center" id="fila1"> <!-- Contenedor (ancho máximo) -->
+      <div class="row"> <!-- Row es fila (horizontal) -->
+        <div class="col-5" id="columna1"> <!-- Column 1 (vertical) -->
+          <div class="card" style="width: 25rem;">
+            <p style="text-align: center;"> ✩₊˚.⋆☾⋆⁺₊✧‧₊˚✩ ₊˚⊹♡✩°｡⋆✩₊˚.⋆☾⋆⁺₊✧‧₊˚✩ ₊˚⊹♡✩°｡⋆✩₊˚.⋆☾ </p>
+            <img src="aboutme.jpg" class="card-img-top"
+              alt="Foto de mujer con cabello y playera negra, con fondo blanco y mucha exposicion al flash">
+            <div class="card-body">
+              <h2 class="card-title" class="text-center">Gabriela A. Nuñez</h2>
+              <p class="card-text">
+              <p>Me gusta que me digan Gaby, tengo 28 años de edad y nací un 15 de Enero de 1996, en Ecatepec.<br>
+                Tengo un hijo pequeño y soy la mayor de 2 hermanas.<br>
+                Me gusta la Arquitectura y Tomar fotografías<br>Fui costurera por varios años.
+                En secundaria tomé taller de industria del vestido y después me inscribí a una escuela de artes y
+                oficios para seguir aprendiendo a coser porque es algo que siempre me ha interesado.
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-6">
+          <h2> Mis Pasatiempos</h2>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Leer
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Genero favorito: novela</strong><br> Me gusta Leer desde que era niña, ahora no lo hago
+                  tanto
+                  por
+                  falta de tiempo pero me hace muy feliz.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Tomar fotografías
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Cámara : finepixz10F</strong><br>Apesar de que mi cámara es digital y yo soy muy "amateur",
+                  disfruto
+                  mucho tomar fotografías y observarlas.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Hacer Postres
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Especialidad: Pan de Plátano con Chispas</strong><br> Sé cocinar pocos postres, sé que la
+                  repostería
+                  es compleja y requiere mucha práctica, asi que solo preparo postres de vez en cuando.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Tejer, Bordar y Coser
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Este es mi hobbie Favorito</strong><br> Tejer y Bordar eran mi nueva área de aprendizaje
+                  antes
+                  de
+                  comenzar en el mundo TI. Coser era mi trabajo, a eso me dediqué muchos años y me encanta. Soy fan de
+                  la
+                  moda vintage y me gusta leer y aprender sobre los antiguos metodos de producción y elaboración
+                  textil.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Bailar
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>habilidades: 9%</strong><br> Me gusta Bailar, pero no soy muy buena haciendolo y tampoco
+                  salgo
+                  a
+                  muchas fiestas, es mi actividad fisica favorita.Tomé clases de Salsa hace unos años.
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="container px-6 text-center">
+            <div class="row gx-7">
+              <div class="col">
+                <div class="p-3">☆₊˚★ ₊˚✩☆</div>
+              </div>
+            </div>
+          </div>
+
+          <h3 style="text-align: center;">☆₊˚★ ₊˚✩☆ Mi Música Favorita ☆₊˚★ ₊˚✩☆ </h3>
+          <p style="text-align: center;">Mi top 5 de canciones favoritas del momento es:</p>
+
+          <section class="container " id="fila2"> <!-- Contenedor 2 (ancho máximo) -->
+            <div class="row"> <!-- Row 2 (horizontal) -->
+              <div class="col-xl" id="columna1"> <!-- Column 1 (vertical) -->
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="ohthelindalindas.jpg" class="d-block w-100" alt="...">
+                      <a href="https://www.youtube.com/watch?v=wF-1IIs9_5U"> Oh - The linda lindas</a>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="itco.jpg" class="d-block w-100" alt="...">
+                      <a href="https://www.youtube.com/watch?v=ZJs57GL69Mc"> In the car outside - The Killers</a>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="2shadowplay.jpg" class="d-block w-100" alt="...">
+                      <a href="https://www.youtube.com/watch?v=wrbKvxGgFfg"> Shadowplay - The Killers </a>
+                    </div>
+
+                    <div class="carousel-item">
+                      <img src="armistice.jpg" class="d-block w-100" alt="...">
+                      <a href="https://www.youtube.com/watch?v=AabRFS8t1BI"> Armistice - Phoenix </a>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="stranded.jpg" class="d-block w-100" alt="...">
+                      <a href="https://www.youtube.com/watch?v=FNdC_3LR2AI"> Stranded - Gojira </a>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                      data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                      data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+                </div>
+
+
+
+
+
+
+              </div>
+
+
+            </div>
+          </section>
+
+          <div class="container px-6 text-center">
+            <div class="row gx-7">
+              <div class="col">
+                <div class="p-3">☆₊˚★ ₊˚✩☆
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+    </section>
+
+
+    <footer>
+      <div class="alert alert-info" role="alert">
+        <p style="text-align: center;">Me gusta mucho escuchar música y escucho casi todos los géneros.<br> Acá mi
+          perfil de Spotify
+          <a href="https://open.spotify.com/user/12172240583?si=33aedf1f517f46f2" id="spotify"
+            class="alert-link"><Q>@zenunaide</Q></a>
+        </p>
+      </div>
+    </footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
